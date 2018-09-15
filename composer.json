@@ -1,5 +1,5 @@
 {
-    "name": "redaxo/composer-installer-plugin",
+    "name": "redaxo/addon-installer-plugin",
     "type": "composer-plugin",
     "license": "MIT",
     "autoload": {
