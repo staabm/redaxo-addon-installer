@@ -12,7 +12,7 @@ class AddonInstaller extends BaseInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        list($owner, $packageName) = explode($package->getPrettyName(), '/', 2);
+        list($owner, $packageName) = explode('/', $package->getPrettyName(), 2);
 
         return 'redaxo/src/addons/'.$packageName;
     }
